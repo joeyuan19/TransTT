@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <!-- css -->
+        <link href="/static/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
+        <link href="/static/css/tt.css" rel="stylesheet"/>
+        {% block styles %}
+        {% end %}
+        
+        <!-- js -->
+        <script type="text/javascript" src="/static/js/jquery-1.11.1.min.js"></script>
+        <script type="text/javascript" src="/static/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        {% block header_scripts %}
+        {% end %}
+    </head>
+    <body>
+        {% block content %}
+            <div>No page loaded</div>
+        {% end %}
+        {% block footer_scripts %}
+        {% end %}
+    </body>
+</html>

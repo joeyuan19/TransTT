@@ -1,0 +1,39 @@
+/* T&T Nav CSS */
+
+.tt-nav-title {
+    color: red;
+}
+
+/* T&T Logo */
+
+.tt-content {
+    margin-top: 65px;
+}
+.tt-logo {
+    height: 100%;
+}
+.tt-logo-main {
+    height: 120px;
+    width: 200px;
+    position: absolute;
+    z-index: 2;
+    overflow: hidden;
+}
+.tt-logo-bg {
+    height: 120px;
+    width: 200px;
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+}
+.tt-logo-main-img {
+
+}
+.tt-logo-bg-img {
+    position: absolute;
+    opacity: 0;
+}
+.tt-logo-bg-img-active {
+    opacity: 1;
+}
+
